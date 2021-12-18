@@ -39,22 +39,18 @@ body {
 	background-color: #eee;
 }
 
-.cell.landmine {
-	background: url(../image/bomb.jpg) no-repeat;
-	background-size: 1em 1em;
-}
 
-.cell.landmine.exploded {
-	background: url(../image/bomb.jpg) no-repeat;
-	background-size: 1em 1em;
-}
 
-.cell.landmine.success {
-	background: url(../image/smile.jpg) no-repeat;
-	background-size: 1em 1em;
-}
 
-.undetermined {
-	background: url(../image/flag.jpg)repeat;
-	background-size: 1em 1em;
-}
+
+
+
+
+
+
+
+
+
+
+
+
