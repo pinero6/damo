@@ -17,11 +17,11 @@ function renderBoard(numRows, numCols, grid) {
             cellEl.className = "cell";
             grid[i][j].cellEl = cellEl;
 
-if ( grid[i][j].count === -1) {
-    cellEl.innerText = "*";    
- } else {
-     cellEl.innerText = grid[i][j].count;
- }
+// if ( grid[i][j].count === -1) {
+//     cellEl.innerText = "*";    
+//  } else {
+//      cellEl.innerText = grid[i][j].count;
+//  }
             cellEl.addEventListener("click", (e)=> {
 				//alert(e.which);
 				if (bombflag)
